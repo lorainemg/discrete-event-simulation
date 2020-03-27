@@ -17,7 +17,7 @@ def simulate():
     arrival_times = []
     departure_times = []
 
-    desocupation_time = [0]*5
+    unoccupied_time = [0]*5
     last_occupied_time = [0]*5
 
     times = [MAX_TIME]*5
@@ -36,7 +36,7 @@ def simulate():
                 if not occupied[i]:
                     occupied[i] = True
                     times[i] = t + departure_time()
-                    desocupation_time[i] += t - last_occupied_time[i]
+                    unoccupied_time[i] += t - last_occupied_time[i]
                     break
             else:
                 n += 1
@@ -55,13 +55,13 @@ def simulate():
                         visited = True
                         n -= 1
                         occupied[i] = True
-                        desocupation_time[i] += t - last_occupied_time[i]
+                        unoccupied_time[i] += t - last_occupied_time[i]
                         times[i] = t + departure_time()
-    return desocupation_time
+    return unoccupied_time
                     
 
 if __name__ == "__main__":
-    desocupation_time = simulate()
+    unoccupied_time = simulate()
     print('Tiempo total de desocupación de cada una de las pistas')
-    for i, time in enumerate(desocupation_time):
+    for i, time in enumerate(unoccupied_time):
         print(f'Pista {i}: {time}')
