@@ -1,0 +1,216 @@
+-----------------------------
+Simulation 0
+Avarage time for track 0: 5014.2432
+Avarage time for track 1: 6654.0929
+Avarage time for track 2: 8324.9356
+Avarage time for track 3: 9188.491
+Avarage time for track 4: 9029.6411
+-----------------------------
+Simulation 1
+Avarage time for track 0: 5315.9056
+Avarage time for track 1: 6946.6875
+Avarage time for track 2: 8307.6541
+Avarage time for track 3: 8839.4883
+Avarage time for track 4: 5756.2485
+-----------------------------
+Simulation 2
+Avarage time for track 0: 4947.9596
+Avarage time for track 1: 6406.5346
+Avarage time for track 2: 8022.8873
+Avarage time for track 3: 9223.8991
+Avarage time for track 4: 8791.2367
+-----------------------------
+Simulation 3
+Avarage time for track 0: 4999.3196
+Avarage time for track 1: 6612.7474
+Avarage time for track 2: 8416.1572
+Avarage time for track 3: 9388.9611
+Avarage time for track 4: 9224.5692
+-----------------------------
+Simulation 4
+Avarage time for track 0: 4881.7307
+Avarage time for track 1: 6506.8533
+Avarage time for track 2: 7965.9743
+Avarage time for track 3: 8815.0088
+Avarage time for track 4: 8597.9162
+-----------------------------
+Simulation 5
+Avarage time for track 0: 4735.9966
+Avarage time for track 1: 6067.9422
+Avarage time for track 2: 8346.7818
+Avarage time for track 3: 9543.3299
+Avarage time for track 4: 9543.1799
+-----------------------------
+Simulation 6
+Avarage time for track 0: 5278.1298
+Avarage time for track 1: 6921.0659
+Avarage time for track 2: 8733.093
+Avarage time for track 3: 9396.5013
+Avarage time for track 4: 5161.4813
+-----------------------------
+Simulation 7
+Avarage time for track 0: 5085.2463
+Avarage time for track 1: 6776.1106
+Avarage time for track 2: 8293.0257
+Avarage time for track 3: 9059.138
+Avarage time for track 4: 8275.7794
+-----------------------------
+Simulation 8
+Avarage time for track 0: 4590.5692
+Avarage time for track 1: 6209.1978
+Avarage time for track 2: 8095.8178
+Avarage time for track 3: 9386.68
+Avarage time for track 4: 9599.676
+-----------------------------
+Simulation 9
+Avarage time for track 0: 4861.0081
+Avarage time for track 1: 6615.9004
+Avarage time for track 2: 8229.7867
+Avarage time for track 3: 8769.5822
+Avarage time for track 4: 9093.4004
+-----------------------------
+Simulation 10
+Avarage time for track 0: 5013.5231
+Avarage time for track 1: 6872.5717
+Avarage time for track 2: 8118.9902
+Avarage time for track 3: 9073.3449
+Avarage time for track 4: 8712.415
+-----------------------------
+Simulation 11
+Avarage time for track 0: 5240.0928
+Avarage time for track 1: 6964.4542
+Avarage time for track 2: 8185.6903
+Avarage time for track 3: 9145.971
+Avarage time for track 4: 9669.6403
+-----------------------------
+Simulation 12
+Avarage time for track 0: 4974.7761
+Avarage time for track 1: 6992.929
+Avarage time for track 2: 7854.2328
+Avarage time for track 3: 8879.1469
+Avarage time for track 4: 4962.2138
+-----------------------------
+Simulation 13
+Avarage time for track 0: 5195.829
+Avarage time for track 1: 6759.2634
+Avarage time for track 2: 8403.1033
+Avarage time for track 3: 9462.4465
+Avarage time for track 4: 8842.7104
+-----------------------------
+Simulation 14
+Avarage time for track 0: 5051.2396
+Avarage time for track 1: 6339.6209
+Avarage time for track 2: 8421.8059
+Avarage time for track 3: 9372.199
+Avarage time for track 4: 9559.9244
+-----------------------------
+Simulation 15
+Avarage time for track 0: 4974.2519
+Avarage time for track 1: 6780.034
+Avarage time for track 2: 8576.1605
+Avarage time for track 3: 9515.109
+Avarage time for track 4: 5088.902
+-----------------------------
+Simulation 16
+Avarage time for track 0: 5193.4164
+Avarage time for track 1: 6760.5526
+Avarage time for track 2: 8280.2569
+Avarage time for track 3: 9272.4962
+Avarage time for track 4: 7398.5635
+-----------------------------
+Simulation 17
+Avarage time for track 0: 5104.7187
+Avarage time for track 1: 6763.1486
+Avarage time for track 2: 8086.4852
+Avarage time for track 3: 9261.5059
+Avarage time for track 4: 9706.8744
+-----------------------------
+Simulation 18
+Avarage time for track 0: 4891.1299
+Avarage time for track 1: 6600.0514
+Avarage time for track 2: 8195.7546
+Avarage time for track 3: 8665.6708
+Avarage time for track 4: 7459.6533
+-----------------------------
+Simulation 19
+Avarage time for track 0: 5006.9456
+Avarage time for track 1: 6712.2924
+Avarage time for track 2: 8588.0514
+Avarage time for track 3: 9768.3855
+Avarage time for track 4: 9905.6414
+-----------------------------
+Simulation 20
+Avarage time for track 0: 4930.6178
+Avarage time for track 1: 6328.3086
+Avarage time for track 2: 8312.8973
+Avarage time for track 3: 9397.1752
+Avarage time for track 4: 9901.2797
+-----------------------------
+Simulation 21
+Avarage time for track 0: 4956.8846
+Avarage time for track 1: 6619.9823
+Avarage time for track 2: 8394.9624
+Avarage time for track 3: 8783.1474
+Avarage time for track 4: 9212.2121
+-----------------------------
+Simulation 22
+Avarage time for track 0: 4811.0617
+Avarage time for track 1: 6514.4829
+Avarage time for track 2: 8357.843
+Avarage time for track 3: 8823.9298
+Avarage time for track 4: 6919.3264
+-----------------------------
+Simulation 23
+Avarage time for track 0: 5090.5727
+Avarage time for track 1: 6849.2161
+Avarage time for track 2: 8419.5773
+Avarage time for track 3: 9079.8835
+Avarage time for track 4: 1712.1812
+-----------------------------
+Simulation 24
+Avarage time for track 0: 5085.4436
+Avarage time for track 1: 6532.3315
+Avarage time for track 2: 8138.5034
+Avarage time for track 3: 8725.5263
+Avarage time for track 4: 9073.5513
+-----------------------------
+Simulation 25
+Avarage time for track 0: 5247.4003
+Avarage time for track 1: 7036.7749
+Avarage time for track 2: 8684.3362
+Avarage time for track 3: 9572.6569
+Avarage time for track 4: 8887.6824
+-----------------------------
+Simulation 26
+Avarage time for track 0: 5229.467
+Avarage time for track 1: 6993.099
+Avarage time for track 2: 8511.278
+Avarage time for track 3: 9331.4929
+Avarage time for track 4: 9776.2881
+-----------------------------
+Simulation 27
+Avarage time for track 0: 4904.4257
+Avarage time for track 1: 6685.1354
+Avarage time for track 2: 8319.9311
+Avarage time for track 3: 9273.1553
+Avarage time for track 4: 8861.8279
+-----------------------------
+Simulation 28
+Avarage time for track 0: 4719.4909
+Avarage time for track 1: 6873.6953
+Avarage time for track 2: 8604.4614
+Avarage time for track 3: 9539.7351
+Avarage time for track 4: 8074.3301
+-----------------------------
+Simulation 29
+Avarage time for track 0: 4912.3592
+Avarage time for track 1: 6450.4568
+Avarage time for track 2: 8186.9521
+Avarage time for track 3: 9316.2863
+Avarage time for track 4: 9733.6622
+==============================
+Total avarage time for track 0: 5008.1252
+Total avarage time for track 1: 6671.5178
+Total avarage time for track 2: 8312.5796
+Total avarage time for track 3: 9195.6781
+Total avarage time for track 4: 8217.7336

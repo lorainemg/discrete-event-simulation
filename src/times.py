@@ -1,7 +1,7 @@
 from distributions import exponential, normal, bernoulli
 
-def arrival_time():
-    return exponential(1/20)
+def arrival_time(lambd):
+    return exponential(lambd)
 
 def landing_time():
     return normal(10, 5)

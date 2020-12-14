@@ -4,12 +4,13 @@ from random import shuffle
 MAX_TIME = 99999999999
 DURATION = 10080
 
+
 def shuffle_tracks():
     tracks = list(range(5))
     shuffle(tracks)
     return tracks
 
-def simulate():
+def simulate(arriv_param, shuffle=True):
     # ss = [0]*6          # [customers in the system, wich are in any of the landing tracks]
     n = 0
     occupied = [False]*5
@@ -21,17 +22,19 @@ def simulate():
     last_occupied_time = [0]*5
 
     times = [MAX_TIME]*5
-    next_arrival = arrival_time() 
+    next_arrival = arrival_time(arriv_param) 
     t = 0
 
     while t < DURATION:
         if next_arrival <= min(times):
             t = next_arrival
-            next_arrival = t + arrival_time()
+            next_arrival = t + arrival_time(arriv_param)
             arrival_times.append(t)
 
-            tracks = shuffle_tracks()
-            # tracks = range(5)
+            if shuffle:
+                tracks = shuffle_tracks()
+            else:
+                tracks = range(5)
             for i in tracks:
                 if not occupied[i]:
                     occupied[i] = True
@@ -41,8 +44,10 @@ def simulate():
             else:
                 n += 1
         else:
-            tracks = shuffle_tracks()
-            # tracks = range(5)
+            if shuffle:
+                tracks = shuffle_tracks()
+            else:
+                tracks = range(5)
             for i in tracks:
                 if next_arrival > times[i] and occupied[i]:
                     occupied[i] = False
@@ -59,9 +64,33 @@ def simulate():
                         times[i] = t + departure_time()
     return unoccupied_time
                     
+def get_results(arriv_param, shuffle):
+    lines = []
+    accum = {}
+    for i in range(30):
+        lines.append('-----------------------------\n')
+        lines.append(f'Simulation {i}\n')
+        unoccupied_time = simulate(arriv_param, shuffle)
+        for track, time in enumerate(unoccupied_time):
+            time = round(time, 4)
+            lines.append(f'Avarage time for track {track}: {time}\n')
+            try:
+                accum[track] += time
+            except:
+                accum[track] = time
+    lines.append('==============================\n')
+    for track, avarege_time in accum.items():
+        avarege_time = avarege_time / 30
+        avarege_time = round(avarege_time, 4)
+        lines.append(f'Total avarage time for track {track}: {avarege_time}\n')
+    with open(f'simulation({arriv_param})({shuffle}).txt', 'w+') as fp:
+        fp.writelines(lines)
 
 if __name__ == "__main__":
-    unoccupied_time = simulate()
-    print('Tiempo total de desocupación de cada una de las pistas')
-    for i, time in enumerate(unoccupied_time):
-        print(f'Pista {i}: {time}')
+    get_results(20, False)
+    get_results(1/20, False)
+    get_results(1/20, True)
+    # unoccupied_time = simulate()
+    # print('Tiempo total de desocupación de cada una de las pistas')
+    # for i, time in enumerate(unoccupied_time):
+    #     print(f'Pista {i}: {time}')
